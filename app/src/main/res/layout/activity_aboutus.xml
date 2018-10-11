@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.samriti.userinfo.aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_alignLeft="@+id/t2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/t2"
+        android:layout_marginTop="123dp"
+        android:text="'SUNSHINE' is the app found in 2017 by students of Lovely Professional University(LPU). This app deals in finding locations of old age homes for old people who either are alone or they are abandoned by their children and families. Our app is like a supportive help for those who are in need  "
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="37dp"
+        android:text="About Us :"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+</RelativeLayout>

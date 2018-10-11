@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.example.samriti.userinfo.credits"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/d"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/t4"
+        android:textColor="#00008B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/t5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/t5" />
+    <TextView
+        android:id="@+id/t5"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramit"
+        android:layout_alignBaseline="@+id/t12"
+        android:layout_alignBottom="@+id/t12"
+        android:layout_toRightOf="@+id/t4"
+        android:layout_toEndOf="@+id/t4" />
+    <TextView
+        android:id="@+id/t6"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reg_no:"
+        android:layout_marginTop="290dp"
+        />
+    <TextView
+        android:id="@+id/t7"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11503535"
+        android:layout_alignBaseline="@+id/t6"
+        android:layout_alignBottom="@+id/t6"
+        android:layout_toRightOf="@+id/t6"
+        android:layout_toEndOf="@+id/t6" />
+
+    <TextView
+        android:id="@+id/t10"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email_id:"
+        android:layout_marginTop="350dp"
+        />
+    <TextView
+        android:id="@+id/t11"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ramit1712@gmail.com"
+        android:layout_toRightOf="@+id/t10"
+        android:layout_marginTop="350dp"
+        android:layout_alignBottom="@+id/t10" />
+    <TextView
+        android:id="@+id/t12"
+        android:textSize="20dp"
+        android:textColor="#00008B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_alignBottom="@+id/t13"
+        android:layout_alignLeft="@+id/t14"
+        android:layout_alignStart="@+id/t14" />
+    <TextView
+        android:id="@+id/t13"
+        android:textSize="20dp"
+        android:textColor="#00008B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samriti"
+        android:layout_marginBottom="28dp"
+        android:layout_alignBottom="@+id/t15"
+        android:layout_toRightOf="@+id/t12"
+        android:layout_toEndOf="@+id/t12" />
+    <TextView
+        android:id="@+id/t14"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reg_no:"
+        android:layout_alignBaseline="@+id/t7"
+        android:layout_alignBottom="@+id/t7"
+        android:layout_toLeftOf="@+id/t15"
+        android:layout_toStartOf="@+id/t15" />
+    <TextView
+        android:id="@+id/t15"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11505915"
+        android:layout_alignBaseline="@+id/t14"
+        android:layout_alignBottom="@+id/t14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp" />
+
+    <TextView
+        android:id="@+id/t18"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email_id:"
+        android:layout_marginTop="370dp"
+        />
+    <TextView
+        android:id="@+id/t19"
+        android:textSize="20dp"
+        android:textColor="#00008B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="samriti2606@gmail.com"
+        android:layout_alignBaseline="@+id/t18"
+        android:layout_alignBottom="@+id/t18"
+        android:layout_toRightOf="@+id/t10"
+        android:layout_toEndOf="@+id/t10" />
+
+
+</RelativeLayout>

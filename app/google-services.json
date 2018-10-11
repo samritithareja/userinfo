@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173817217894",
+    "firebase_url": "https://userinfo-d1cb5.firebaseio.com",
+    "project_id": "userinfo-d1cb5",
+    "storage_bucket": "userinfo-d1cb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173817217894:android:d9f73f2b2c80963c",
+        "android_client_info": {
+          "package_name": "com.example.samriti.userinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173817217894-586p73p1vih7mp9898fv2lvatadpf0j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samriti.userinfo",
+            "certificate_hash": "4caf1fb863dba5286a25eb1540cad66aaab80c67"
+          }
+        },
+        {
+          "client_id": "173817217894-gs84ob85sahlrulor0nrv7nj8sedstdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3rEkouRB4vvDLk2XaR3K9Uh8fTBtPYA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173817217894-gs84ob85sahlrulor0nrv7nj8sedstdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

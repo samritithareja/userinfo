@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.samriti.userinfo.EditProfileActivity">
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_phone"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Group"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/select_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/profile_birth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="date"
+            android:maxLines="1"
+            android:hint="Date of Birth"
+
+            android:singleLine="true" />
+
+     
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_edit"
+
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/home1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Return to home"
+        android:onClick="a"/>
+
+
+</LinearLayout>

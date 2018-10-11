@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samriti.userinfo.stepscount"
+    android:background="@color/yello">
+
+    <TextView
+        android:id="@+id/stepssincereboot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:hint="Steps"/>
+
+    <TextView
+        android:id="@+id/caloriesburntsincereboot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:hint="Calories"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stepssincereboot"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/myanim"
+        android:id="@+id/img"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+    android:id="@+id/textView4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+        android:text="CLICK ME AND START WALKING "
+        android:textSize="30sp"
+
+        android:layout_below="@+id/circleImageView"
+        android:layout_alignLeft="@+id/img"
+        android:layout_alignStart="@+id/img" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+
+        android:src="@drawable/lo"
+        android:id="@+id/circleImageView"
+        android:layout_below="@+id/img"
+        android:layout_alignLeft="@+id/img"
+        android:layout_alignStart="@+id/img"
+        android:layout_marginLeft="133dp"
+        android:layout_marginStart="133dp" />
+</RelativeLayout>

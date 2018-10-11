@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:title="Feedback"
+        android:id="@+id/feed"
+        android:orderInCategory="104"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:title="Help me"
+        android:id="@+id/help"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title=" Credits"
+        android:id="@+id/credit"
+        android:orderInCategory="103"
+        app:showAsAction="never"></item>
+
+</menu>
