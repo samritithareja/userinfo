@@ -28,4 +28,8 @@ public class first extends AppCompatActivity {
         Intent i= new Intent(first.this,help.class);
         startActivity(i);
     }
+    public void galleryadd(View view){
+        Intent i= new Intent(first.this,Gallery.class);
+        startActivity(i);
+    }
 }

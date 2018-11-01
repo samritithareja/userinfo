@@ -83,7 +83,7 @@ public class home extends AppCompatActivity {
                     Toast.makeText(home.this, "Logout", Toast.LENGTH_LONG).show();
                     FirebaseAuth.getInstance().signOut();
                     finish();
-                    Intent intent = new Intent(home.this, LoginActivity.class);
+                    Intent intent = new Intent(home.this, SignUpActivity.class);
                     startActivity(intent);
                 }
                 return true;

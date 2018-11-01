@@ -2,13 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.samriti.userinfo">
 
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
-        android:name="com.example.samriti.userinfo.FirebaseApplication"
+        android:name=".FirebaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,31 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.samriti.userinfo.LoginActivity" />
-        <activity android:name="com.example.samriti.userinfo.SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
         <activity
-            android:name="com.example.samriti.userinfo.ProfileActivity"
+            android:name=".ProfileActivity"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.samriti.userinfo.EditProfileActivity">
-        </activity>
-        <activity android:name=".connect"/>
-
-<activity android:name=".home"></activity>
-        <activity android:name=".stepscount"/>
-
-        <activity android:name=".credits"/>
-
-        <activity android:name=".Gallery"/>
-
-        <activity android:name=".rate"/>
-<activity android:name=".first"/>
-        <activity android:name=".connection"/>
-
-        <activity android:name="com.example.samriti.userinfo.aboutus"/>
-
-        <activity android:name=".help"/>
-
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".connect" />
+        <activity android:name=".home" />
+        <activity android:name=".stepscount" />
+        <activity android:name=".credits" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".rate" />
+        <activity android:name=".first" />
+        <activity android:name=".connection" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".help" />
+        <activity android:name=".FullImageActivity"></activity>
     </application>
 
 </manifest>
